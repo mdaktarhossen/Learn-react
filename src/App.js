@@ -1,7 +1,9 @@
 import React from 'react';
-import Onchange from './EVENTS/Onchange';
+import Setstate from './HOOKS/Setstate';
+import Usestate from './HOOKS/Usestate';
 export default function App() {
   return <div>
-    <Onchange/>
+    <Setstate/>
+    <Usestate/>
   </div>;
 }
