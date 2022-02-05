@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import "./SCRIMBAREACTCOURSE/style.css"
+
 
 ReactDOM.render(
   <div>
@@ -8,3 +10,4 @@ ReactDOM.render(
   </div>,
   document.getElementById('root')
 );
+

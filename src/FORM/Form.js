@@ -15,8 +15,13 @@ export default function Form() {
     setPassword(x.target.value)
   }
   const handleSubmit=(x)=>{
+    const allValues={
+      name,
+      password,
+      email
+    }
   console.log("Form is submited");
-  console.log([`name is: ${name}, password is: ${password}, Email is: ${email}`])
+  console.log(allValues)
   x.preventDefault()
   }
 

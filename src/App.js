@@ -1,7 +1,10 @@
 import React from 'react';
-import Form from './FORM/Form';
+import Header from './SCRIMBAREACTCOURSE/Header';
+import Main from './SCRIMBAREACTCOURSE/Main';
+
 export default function App() {
   return <div>
-    <Form/>
+    <Header/>
+    <Main/>
   </div>;
 }
